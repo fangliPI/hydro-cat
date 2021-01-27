@@ -30,7 +30,7 @@ const router =  new Router({
 			}
 		},
 		{
-			path: '/page_result',
+			path: '/page_result/:time_now',
 			name: 'page_result',
 			component: page_result,
 			meta: {

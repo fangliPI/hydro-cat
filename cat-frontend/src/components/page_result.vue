@@ -42,7 +42,7 @@
 				<td colspan="2">上次状态评价结果</td>
 				<td colspan="2">{{eval_result}}</td>
 				<td colspan="2">上次状态评价时间</td>
-				<td>{{date_convert(eval_data_basic.createdAt)}}</td>
+				<td>{{date_convert(eval_time)}}</td>
 			</tr>
 		</table>
 		<table class="my-table">
@@ -74,8 +74,7 @@
 		</table>
 
 		<template v-for="comp in eval_data_details">
-
-			<table class="my-table" :key="comp._id" v-if="comp.handle_suggestion == '请输入'">
+			<table class="my-table" :key="comp._id" v-if="comp.createdAt == time_now">
 				<tr>
 					<td rowspan="2" style="width: 120px;">{{comp.name}}</td>
 					<td style="width: 120px;">扣分状态量及状态描述</td>
@@ -134,7 +133,8 @@
 		name: "page_result",
 		data() {
 			return {
-				eval_result: ""
+				eval_result: "",
+				time_now: ''
 			}
 		},
 		created() {
@@ -147,9 +147,10 @@
 			} else {
 				this.eval_result = "严重状态";
 			}
+			this.time_now = this.$route.params.time_now;
 		},
 		computed: {
-			...mapState(["eval_data_basic", "eval_data_details", "uploaded"])
+			...mapState(["eval_data_basic", "eval_data_details", "eval_time", "uploaded"])
 		},
 		methods: {
 			...mapActions(["postData"]),
@@ -228,28 +229,16 @@
 					/* post data to DB and logout*/
 					var eval_data = {
 						basic_info: {},
-						details: []
+						details: [],
+						createdAt: this.time_now
 					};
 					eval_data.basic_info = this.eval_data_basic;
 					eval_data.details = this.eval_data_details;
-					this.postData(eval_data).then(() => {
-						if(this.uploaded) {
-							this.$message({
-								type: 'success',
-								message: '上传成功'
-							});
-							localStorage.removeItem("jwt");
-							this.$router.push({
-								name: "page_login"
-							});
-						}
-						else {
-							this.$message({
-								type: 'error',
-								message: '上传失败'
-							});
-						}	
-					});
+					this.postData(eval_data);
+					localStorage.removeItem("jwt");
+					this.$router.push({
+						name: "page_login"
+					});	
 				}).catch(() => {
 					this.$message({
 						type: 'info',

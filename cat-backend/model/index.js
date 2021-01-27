@@ -11,7 +11,6 @@ const DespSchema = Schema({
 });
 
 const ItemSchema = Schema({
-	id: ObjectId,
 	num: String, //1.1.1
 	name: String,
 	weight: Number,
@@ -24,20 +23,22 @@ const ItemSchema = Schema({
 		type: [DespSchema],
 		default: undefined
 	}
+}, {
+	_id: false
 });
 
 const SubComponentSchema = Schema({
-	id: ObjectId,
 	name: String,
 	score: Number,
 	items: {
 		type: [ItemSchema],
 		default: undefined
 	}
+}, {
+	_id: false
 });
 
 const ComponentSchema = Schema({
-	id: ObjectId,
 	name: String,
 	score: Number,
 	handle_suggestion: String,
@@ -46,11 +47,11 @@ const ComponentSchema = Schema({
 		default: undefined
 	}
 }, {
+	_id: false,
 	timestamps: true
 });
 
 const EvalBasicSchema = Schema({
-	id: ObjectId,
 	operation_id: String, //"运行编号": "/",
 	force_out: String, //"额定出力": "/",
 	force_in: String, //"额定入力": "/",
@@ -67,7 +68,7 @@ const EvalBasicSchema = Schema({
 	rated_by: String,
 	verified_by: String
 }, {
-	timestamps: true
+	_id: false
 });
 
 const EvalSchema = Schema({

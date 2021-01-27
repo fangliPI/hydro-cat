@@ -9,6 +9,7 @@ export default new Vuex.Store({
 	state: {
 		eval_data_basic: {},
 		eval_data_details: [],
+		eval_time: '',
 		errorFromServer: false, // set if GET or POST failed
 		loaded: false, //set if GET eval_data successfully
 		uploaded: false //set if POST eval_data successfully
@@ -19,6 +20,9 @@ export default new Vuex.Store({
 		},
 		setEvalDataDetails(state, payload) {
 			state.eval_data_details = payload
+		},
+		setEvalTime(state, payload) {
+			state.eval_time = payload
 		},
 		setError(state, payload) {
 			state.errorFromServer = payload;
@@ -38,6 +42,7 @@ export default new Vuex.Store({
 					//console.log(response.data);
 					commit('setEvalDataBasic', response.data.basic_info);
 					commit('setEvalDataDetails', response.data.details);
+					commit('setEvalTime', response.data.createdAt);
 					commit('setLoaded', true);
 					commit('setError', false);
 				})

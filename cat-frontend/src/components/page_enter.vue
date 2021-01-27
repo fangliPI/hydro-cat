@@ -70,7 +70,7 @@
 				</el-form-item>
 				<br />
 				<el-form-item label="上次状态评价日期" label-width="140px">
-					<el-date-picker type="date" placeholder="选择日期" v-model="eval_data_basic.createdAt" value-format="yyyy-MM-dd" style="width: 100%;"
+					<el-date-picker type="date" placeholder="选择日期" v-model="eval_time" value-format="yyyy-MM-dd" style="width: 100%;"
 					 :disabled="true"></el-date-picker>
 				</el-form-item>
 				<el-form-item label="上次状态评价结果" label-width="140px">
@@ -132,7 +132,7 @@
 			}
 		},
 		computed: {
-			...mapState(["errorFromServer", "eval_data_basic"])
+			...mapState(["errorFromServer", "eval_data_basic", "eval_time"])
 		},
 		methods: {
 			...mapActions(["getData"]),

@@ -28,7 +28,8 @@
 			return {
 				activeTab: '',
 				checked_components: [],
-				checked_comps: []
+				checked_comps: [],
+				time: ''
 			}
 		},
 		created() {
@@ -39,7 +40,7 @@
 			for (var i = 0; i < this.checked_components.length; i++) {
 				for (var k = 0; k < this.eval_data_details.length; k++) {
 					if (this.checked_components[i] == this.eval_data_details[k].name) {
-						this.eval_data_details[k].handle_suggestion = "请输入";
+						//this.eval_data_details[k].handle_suggestion = "";	//clear the handle suggestion field
 						this.checked_comps.push(this.eval_data_details[k]);
 					}
 				}
@@ -89,9 +90,10 @@
 				})
 
 				/* update component evaluation time */
-				var time = new Date();
+				var t = new Date();
+				this.time = t.toUTCString();
 				this.checked_comps.forEach((item_component) => {
-					item_component.createdAt = time;
+					item_component.createdAt = this.time;
 				})
 
 				/* merge and generate new eval_data_details */
@@ -126,7 +128,10 @@
 				}).then(() => {
 					//go to page_result
 					this.$router.push({
-						name: "page_result"
+						name: "page_result",
+						params: {
+						time_now: this.time
+					}
 					});
 				}).catch(() => {
 					this.$message({
