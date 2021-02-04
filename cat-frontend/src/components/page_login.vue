@@ -20,7 +20,7 @@
 
 <script>
 	import axios from 'axios'
-	const API_BASE = 'http://localhost:3000'
+	const API_BASE = 'http://localhost:3000/api/v1'
 	export default {
 		name: 'page_login',
 		data() {
@@ -41,7 +41,7 @@
 		methods: {
 			async loginUser() {
 				try {
-					let response = await axios.post(`${API_BASE}/users/login`, this.userForm);
+					let response = await axios.post(`${API_BASE}/user_login`, this.userForm);
 					let token = response.data.token;
 					localStorage.setItem("jwt", token);
 					if (token) {
