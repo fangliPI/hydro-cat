@@ -1,5 +1,6 @@
 var createError = require('http-errors');
 var express = require('express');
+var cors = require('cors');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -18,7 +19,7 @@ app.set('view engine', 'jade');
 // 连接数据库
 mongoose.connect(`mongodb://localhost:27017/test`);
 
-// CORS config here
+/* // CORS config here
 app.all('/*', function(req, res, next) {
   // CORS headers
   res.header("Access-Control-Allow-Origin", "*"); // restrict it to the required domain
@@ -30,8 +31,9 @@ app.all('/*', function(req, res, next) {
   } else {
     next();
   }
-});
+}); */
 
+app.use(cors());
 app.use(logger('dev'));
 //app.use(express.json());
 app.use(express.json({limit: '5mb'}));
