@@ -76,7 +76,7 @@
 		<template v-for="comp in eval_data_details">
 			<table class="my-table" :key="comp._id" v-if="comp.createdAt == time_now">
 				<tr>
-					<td rowspan="2" style="width: 120px;">{{comp.name}}</td>
+					<td rowspan="3" style="width: 120px;">{{comp.name}}</td>
 					<td style="width: 120px;">扣分状态量及状态描述</td>
 					<td>
 						<ul v-if="comp.score <= 30">
@@ -105,6 +105,12 @@
 						</el-input>
 					</td>
 				</tr>
+				<tr>
+					<td>图片说明</td>
+					<td>
+						<pic_upload v-on:update-images="updateImageList(comp.image_list, $event)"></pic_upload>
+					</td>
+				</tr>
 			</table>
 		</template>
 		<table class="my-table">
@@ -125,12 +131,17 @@
 </template>
 
 <script>
+	import pic_upload from './pic_upload.vue'
 	import {
 		mapState,
 		mapActions
 	} from 'vuex'
+
 	export default {
 		name: "page_result",
+		components: {
+			pic_upload
+		},
 		data() {
 			return {
 				eval_result: "",
@@ -220,6 +231,11 @@
 					}
 				}
 			},
+			updateImageList(to_i, from_i) {
+				for (var i = 0; i < from_i.length; i++) {
+					this.$set(to_i, i, from_i[i]);
+				}
+			},
 			submit() {
 				this.$confirm('确定保存此次评估结果，并上传评估数据？', '提示', {
 					confirmButtonText: '确定',
@@ -234,11 +250,12 @@
 					};
 					eval_data.basic_info = this.eval_data_basic;
 					eval_data.details = this.eval_data_details;
+					console.log(eval_data.details);
 					this.postData(eval_data);
 					localStorage.removeItem("jwt");
 					this.$router.push({
 						name: "page_login"
-					});	
+					});
 				}).catch(() => {
 					this.$message({
 						type: 'info',

@@ -55,7 +55,7 @@
 			handleTabClick(tab, event) {
 				console.log(tab, event);
 			},
-			
+
 			submit() {
 				/* calculate sub_component score of the updated components */
 				var score_temp = 0;
@@ -103,6 +103,7 @@
 						if (new_item_component.name == i.name) {
 							new_item_component.score = i.score;
 							new_item_component.sub_component_list = i.sub_component_list;
+							new_item_component.image_list = [];
 						}
 					})
 				})
@@ -130,8 +131,8 @@
 					this.$router.push({
 						name: "page_result",
 						params: {
-						time_now: this.time
-					}
+							time_now: this.time
+						}
 					});
 				}).catch(() => {
 					this.$message({

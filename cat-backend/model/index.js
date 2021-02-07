@@ -38,12 +38,21 @@ const SubComponentSchema = Schema({
 	_id: false
 });
 
+const ImageListSchema = Schema({
+	name: String,
+	url: String
+});
+
 const ComponentSchema = Schema({
 	name: String,
 	score: Number,
 	handle_suggestion: String,
 	sub_component_list: {
 		type: [SubComponentSchema],
+		default: undefined
+	},
+	image_list: {
+		type: [ImageListSchema],
 		default: undefined
 	}
 }, {
