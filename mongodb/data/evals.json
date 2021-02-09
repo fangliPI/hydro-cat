@@ -1,0 +1,3197 @@
+[{
+    "basic_info": {
+        "operation_id": "/",
+        "force_out": "333 MW",
+        "force_in": "306 MW",
+        "rated_head": "610.2 m",
+        "flow": "67.7 m3/s",
+        "rpm": "500",
+        "manufacturer": "/",
+        "installer": "/",
+        "serial_num": "/",
+        "type": "混流式",
+        "date_on": "1989-05-20T02:46:22.796Z",
+        "date_inspection": "2006-07-04T07:33:12.234Z",
+        "eval_score": 72,
+        "rated_by": "李长勇",
+        "verified_by": "赵江"
+    },
+    "details": [
+        {
+            "name": "尾水管",
+            "score": 16,
+            "handle_suggestion": "",
+            "sub_component_list": [
+                {
+                    "name": "尾水管本体",
+                    "score": 16,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 6,
+                            "score": 3,
+                            "num": "1.1.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "流道面油漆或涂层脱落面积小于5%，连续面积不大于400cm2"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面油漆或涂层脱落面积在5%至30%之间，或连续面积大于400cm2"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面油漆或涂层脱落面积超过30%"
+                                }
+                            ],
+                            "condition": "流道面油漆或涂层脱落面积小于5%，连续面积不大于400cm2"
+                        },
+                        {
+                            "name": "空蚀",
+                            "weight": 4,
+                            "weighted_score": 4,
+                            "score": 1,
+                            "num": "1.1.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无空蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度空蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面空蚀严重，深度超过3mm，但不超过20%壁厚设计值"
+                                }
+                            ],
+                            "condition": "无空蚀发生"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 4,
+                            "weighted_score": 16,
+                            "score": 4,
+                            "num": "1.1.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面腐蚀严重，深度超过3mm，但不超过20%壁厚设计值"
+                                }
+                            ],
+                            "condition": "流道面中度腐蚀，深度小于1mm"
+                        },
+                        {
+                            "name": " 磨蚀",
+                            "weight": 4,
+                            "weighted_score": 4,
+                            "score": 1,
+                            "num": "1.1.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度磨蚀，磨蚀深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面磨蚀严重，磨蚀深度超过3mm，但不超过20%壁厚设计值"
+                                }
+                            ],
+                            "condition": "无磨蚀发生"
+                        },
+                        {
+                            "name": " 可拆卸泄流环（如适用）",
+                            "weight": 9,
+                            "weighted_score": 9,
+                            "score": 1,
+                            "num": "1.1.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": " 尾水格栅",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "1.1.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "本体无断裂；螺栓无脱落"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "本体断裂或螺栓脱落"
+                                }
+                            ],
+                            "condition": "本体无断裂；螺栓无脱落"
+                        },
+                        {
+                            "name": " 本体变形",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "1.1.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无明显变形"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "有明显变形"
+                                }
+                            ],
+                            "condition": "无明显变形"
+                        },
+                        {
+                            "name": " 裂纹",
+                            "weight": 9,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "1.1.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤焊缝有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤焊缝无裂纹"
+                        },
+                        {
+                            "name": " 调相压水管路（如适用）",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "1.1.9",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "调相压水管路空蚀或磨蚀深度小于1mm；管路或焊缝无裂纹；管接头无漏水、无漏气"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "调相压水管路空蚀或磨蚀深度大于1mm；管路或焊缝无裂纹；管接头有滴漏、无漏气"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "调相压水管路空蚀或磨蚀深度大于2mm；管路或焊缝有裂纹；管接头漏水或漏气"
+                                }
+                            ],
+                            "condition": "调相压水管路空蚀或磨蚀深度小于1mm；管路或焊缝无裂纹；管接头无漏水、无漏气"
+                        }
+                    ]
+                },
+                {
+                    "name": "尾水椎管进入门",
+                    "score": 10,
+                    "items": [
+                        {
+                            "name": "进入门密封",
+                            "weight": 9,
+                            "weighted_score": 9,
+                            "score": 1,
+                            "num": "1.2.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无漏水，密封完好无老化现象，密封面无腐蚀，无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "无漏水，密封完好有轻微老化现象，密封面有轻微腐蚀，无裂纹"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "有漏水，密封老化或破损，密封面腐蚀严重，有裂纹"
+                                }
+                            ],
+                            "condition": "无漏水，密封完好无老化现象，密封面无腐蚀，无裂纹"
+                        },
+                        {
+                            "name": "进入门螺栓连接",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "1.2.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 7,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至7分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "8至10分",
+                                    "description": "螺栓伸长量或预紧力矩不满足设计要求；螺栓松动；螺栓锈蚀面积20%以上；螺栓关键部位有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 6,
+                            "score": 1,
+                            "num": "1.2.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度复核计算满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度复核计算不满足要求"
+                                }
+                            ],
+                            "condition": "刚强度复核计算满足要求"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "蜗壳座环",
+            "score": 72,
+            "handle_suggestion": "对油漆脱落区域进行补漆",
+            "sub_component_list": [
+                {
+                    "name": "蜗壳本体",
+                    "score": 18,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 4,
+                            "score": 2,
+                            "num": "2.1.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "流道面油漆或涂层脱落面积小于5%，连续面积不大于400cm2"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面油漆或涂层脱落面积在5%至30%之间，或连续面积大于400cm2"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面油漆或涂层脱落面积超过30%"
+                                }
+                            ],
+                            "condition": "流道面油漆或涂层脱落面积小于5%，连续面积不大于400cm2"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 4,
+                            "weighted_score": 12,
+                            "score": 3,
+                            "num": "2.1.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面腐蚀严重，深度超过3mm，但不超过20%壁厚设计值"
+                                }
+                            ],
+                            "condition": "无腐蚀发生"
+                        },
+                        {
+                            "name": "磨蚀",
+                            "weight": 4,
+                            "weighted_score": 4,
+                            "score": 1,
+                            "num": "2.1.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度磨蚀，磨蚀深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面磨蚀严重，磨蚀深度超过3mm，但不超过20%壁厚设计值"
+                                }
+                            ],
+                            "condition": "无磨蚀发生"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 9,
+                            "weighted_score": 18,
+                            "score": 2,
+                            "num": "2.1.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤焊缝有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤焊缝无裂纹"
+                        }
+                    ]
+                },
+                {
+                    "name": "蜗壳进入门",
+                    "score": 18,
+                    "items": [
+                        {
+                            "name": "进入门密封",
+                            "weight": 9,
+                            "weighted_score": 18,
+                            "score": 2,
+                            "num": "2.2.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无漏水，密封完好无老化现象，密封面无腐蚀，无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "无漏水，密封完好有轻微老化现象，密封面有轻微腐蚀，无裂纹"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "有漏水，密封老化或破损，密封面腐蚀严重，有裂纹"
+                                }
+                            ],
+                            "condition": "无漏水，密封完好无老化现象，密封面无腐蚀，无裂纹"
+                        },
+                        {
+                            "name": "进入门螺栓连接",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "2.2.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 7,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至7分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "8至10分",
+                                    "description": "螺栓伸长量或预紧力矩不满足设计要求；螺栓松动；螺栓锈蚀面积20%以上；螺栓关键部位有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 6,
+                            "score": 1,
+                            "num": "2.2.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度复核计算满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度复核计算不满足要求"
+                                }
+                            ],
+                            "condition": "刚强度复核计算满足要求"
+                        }
+                    ]
+                },
+                {
+                    "name": "座环本体",
+                    "score": 72,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 4,
+                            "score": 2,
+                            "num": "2.3.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "流道面油漆或涂层脱落面积小于5%，连续面积不大于400cm2"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面油漆或涂层脱落面积在5%至30%之间，或连续面积大于400cm2"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面油漆或涂层脱落面积超过30%"
+                                }
+                            ],
+                            "condition": "流道面油漆或涂层脱落面积小于5%，连续面积不大于400cm2"
+                        },
+                        {
+                            "name": "空蚀",
+                            "weight": 9,
+                            "weighted_score": 72,
+                            "score": 8,
+                            "num": "2.3.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无空蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度空蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面空蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "流道面空蚀严重，深度超过3mm"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 4,
+                            "weighted_score": 20,
+                            "score": 5,
+                            "num": "2.3.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面腐蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "流道面中度腐蚀，深度小于1mm"
+                        },
+                        {
+                            "name": " 磨蚀",
+                            "weight": 7,
+                            "weighted_score": 14,
+                            "score": 2,
+                            "num": "2.3.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度磨蚀，磨蚀深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面磨蚀严重，磨蚀深度超过3mm"
+                                }
+                            ],
+                            "condition": "无磨蚀发生"
+                        },
+                        {
+                            "name": "密封面质量",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "2.3.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "座环和顶盖把合面轻微锈蚀，座环侧密封接触面无锈蚀，无漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "座环和顶盖把合面中等锈蚀，座环侧密封接触面锈蚀，无漏水"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "座环和顶盖把合面锈蚀严重，座环侧密封接触面锈蚀严重，有漏水"
+                                }
+                            ],
+                            "condition": "座环和顶盖把合面轻微锈蚀，座环侧密封接触面无锈蚀，无漏水"
+                        },
+                        {
+                            "name": " 裂纹",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "2.3.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤焊缝有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤焊缝无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 6,
+                            "score": 1,
+                            "num": "2.3.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度复核计算不满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度复核计算满足要求"
+                                }
+                            ],
+                            "condition": "刚强度复核计算不满足要求"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "导水机构",
+            "score": 54,
+            "handle_suggestion": "修复或更换抗磨板，导叶；更换导叶轴颈密封；更换控制环轴承",
+            "sub_component_list": [
+                {
+                    "name": "顶盖",
+                    "score": 27,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 6,
+                            "score": 3,
+                            "num": "3.1.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油漆或涂层脱落面积在20%至50%之间，有锈蚀面积在20%至50%之间"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油漆或涂层脱落面积超过50%；锈蚀面积超过50%，老化严重"
+                                }
+                            ],
+                            "condition": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 4,
+                            "weighted_score": 4,
+                            "score": 1,
+                            "num": "3.1.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面腐蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "无腐蚀发生"
+                        },
+                        {
+                            "name": "顶盖固定止漏环",
+                            "weight": 9,
+                            "weighted_score": 18,
+                            "score": 2,
+                            "num": "3.1.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "止漏环表面轻微腐蚀、空蚀、磨损；止漏环间隙小于1.5倍设计间隙值"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "止漏环表面局部腐蚀、空蚀、磨损；止漏环间隙大于1.5小于2倍设计间隙值"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "止漏环表面严重腐蚀、空蚀、磨损；止漏环间隙大于2倍设计间隙值（可根据机组实际情况进行调整）"
+                                }
+                            ],
+                            "condition": "止漏环表面轻微腐蚀、空蚀、磨损；止漏环间隙小于1.5倍设计间隙值"
+                        },
+                        {
+                            "name": "顶盖固定止漏环固定螺栓",
+                            "weight": 9,
+                            "weighted_score": 27,
+                            "score": 3,
+                            "num": "3.1.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "螺栓伸长量或预紧力矩不满足设计要求；螺栓松动；螺栓锈蚀面积20%以上；螺栓关键部位有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "顶盖抗磨板",
+                            "weight": 6,
+                            "weighted_score": 6,
+                            "score": 1,
+                            "num": "3.1.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "表面轻微腐蚀、空蚀、磨损，面积小于5%；抗磨板平面度满足设计要求值；顶盖、底环抗磨板间距满足设计要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "表面中等腐蚀、空蚀、磨损，面积为5~10%；抗磨板平面度满足设计要求值；顶盖、底环抗磨板间距满足设计要求"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "表面严重腐蚀、空蚀、磨损，面积超过10%；抗磨板平面度不满足设计要求值；顶盖、底环抗磨板间距不满足设计要求"
+                                }
+                            ],
+                            "condition": "表面轻微腐蚀、空蚀、磨损，面积小于5%；抗磨板平面度满足设计要求值；顶盖、底环抗磨板间距满足设计要求"
+                        },
+                        {
+                            "name": "顶盖 抗磨板把合螺栓",
+                            "weight": 7,
+                            "weighted_score": 7,
+                            "score": 1,
+                            "num": "3.1.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "顶盖平压管",
+                            "weight": 7,
+                            "weighted_score": 7,
+                            "score": 1,
+                            "num": "3.1.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "顶盖平压管空蚀或磨蚀深度小于1mm；管路或焊缝无裂纹；管接头无漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "顶盖平压管空蚀或磨蚀深度大于1mm；管路或焊缝无裂纹；管接头有滴漏"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "顶盖平压管空蚀或磨蚀深度大于2mm；管路或焊缝有裂纹；管接头漏水"
+                                }
+                            ],
+                            "condition": "顶盖平压管空蚀或磨蚀深度小于1mm；管路或焊缝无裂纹；管接头无漏水"
+                        },
+                        {
+                            "name": "转轮排气管",
+                            "weight": 7,
+                            "weighted_score": 7,
+                            "score": 1,
+                            "num": "3.1.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "转轮排气管空蚀或磨蚀深度小于1mm；管路或焊缝无裂纹；管接头无漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "转轮排气管空蚀或磨蚀深度大于1mm；管路或焊缝无裂纹；管接头有滴漏"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "转轮排气管空蚀或磨蚀深度大于2mm；管路或焊缝有裂纹；管接头漏水"
+                                }
+                            ],
+                            "condition": "转轮排气管空蚀或磨蚀深度小于1mm；管路或焊缝无裂纹；管接头无漏水"
+                        },
+                        {
+                            "name": "导叶限位块或限位销",
+                            "weight": 9,
+                            "weighted_score": 18,
+                            "score": 2,
+                            "num": "3.1.9",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶限位块无损探伤焊缝无裂纹；限位销无松动或退出"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶限位块无损探伤焊缝有裂纹；限位销松动退出"
+                                }
+                            ],
+                            "condition": "导叶限位块无损探伤焊缝无裂纹；限位销无松动或退出"
+                        },
+                        {
+                            "name": "顶盖密封",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "3.1.10",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "座环和顶盖把合面轻微锈蚀，顶盖侧密封接触面无锈蚀，无漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "座环和顶盖把合面中等锈蚀，顶盖侧密封接触面锈蚀,无漏水"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "座环和顶盖把合面锈蚀严重，顶盖侧密封接触面锈蚀严重，有漏水"
+                                }
+                            ],
+                            "condition": "座环和顶盖把合面轻微锈蚀，顶盖侧密封接触面无锈蚀，无漏水"
+                        },
+                        {
+                            "name": "顶盖连接螺栓",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "3.1.11",
+                            "score_lower_than": 4,
+                            "score_higher_than": 7,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓划线位置无偏移，螺栓伸长量满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无损探伤无裂纹；"
+                                },
+                                {
+                                    "score": "4至7分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "8至10分",
+                                    "description": "螺栓划线位置出现偏移，螺栓伸长量不满足设计要求；螺栓锈蚀面积20%以上；螺栓关键部位有锈蚀；无损探伤有裂纹"
+                                }
+                            ],
+                            "condition": "螺栓划线位置无偏移，螺栓伸长量满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无损探伤无裂纹；"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 10,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.1.12",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤焊缝有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤焊缝无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.1.10",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度复核计算满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度复核计算不满足要求"
+                                }
+                            ],
+                            "condition": "刚强度复核计算满足要求"
+                        }
+                    ]
+                },
+                {
+                    "name": "底环",
+                    "score": 54,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 6,
+                            "score": 3,
+                            "num": "3.2.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油漆或涂层脱落面积在20%至50%之间，有锈蚀面积在20%至50%之间"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油漆或涂层脱落面积超过50%；锈蚀面积超过50%，老化严重"
+                                }
+                            ],
+                            "condition": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 4,
+                            "weighted_score": 12,
+                            "score": 3,
+                            "num": "3.2.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面腐蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "无腐蚀发生"
+                        },
+                        {
+                            "name": "底环固定止漏环",
+                            "weight": 9,
+                            "weighted_score": 9,
+                            "score": 1,
+                            "num": "3.2.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "止漏环表面轻微腐蚀、空蚀、磨损；止漏环间隙小于1.5倍设计间隙值"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "止漏环表面局部腐蚀、空蚀、磨损；止漏环间隙大于1.5小于2倍设计间隙值"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "止漏环表面严重腐蚀、空蚀、磨损；止漏环间隙大于2倍设计间隙值（可根据机组实际情况进行调整）"
+                                }
+                            ],
+                            "condition": "止漏环表面轻微腐蚀、空蚀、磨损；止漏环间隙小于1.5倍设计间隙值"
+                        },
+                        {
+                            "name": "底环抗磨板",
+                            "weight": 4,
+                            "weighted_score": 12,
+                            "score": 3,
+                            "num": "3.2.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "表面轻微腐蚀、空蚀、磨损，面积小于5%；抗磨板平面度满足设计要求值"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "表面中等腐蚀、空蚀、磨损，面积为5~10%；抗磨板平面度满足设计要求值"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "表面严重腐蚀、空蚀、磨损，面积超过10%；抗磨板平面度不满足设计要求值；"
+                                }
+                            ],
+                            "condition": "表面轻微腐蚀、空蚀、磨损，面积小于5%；抗磨板平面度满足设计要求值"
+                        },
+                        {
+                            "name": "底环抗磨板把合螺栓（如适用）",
+                            "weight": 9,
+                            "weighted_score": 54,
+                            "score": 6,
+                            "num": "3.2.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "/"
+                        },
+                        {
+                            "name": "导叶下轴套",
+                            "weight": 5,
+                            "weighted_score": 25,
+                            "score": 5,
+                            "num": "3.2.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶下轴套轻微磨损，深度小于0.1mm；导叶下轴套无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶下轴套中等磨损，深度大于0.1mm，小于0.3mm；导叶下轴套有微裂纹"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶下轴套严重磨损，深度大于0.3mm；导叶下轴套有裂纹"
+                                }
+                            ],
+                            "condition": "导叶下轴套中等磨损，深度大于0.1mm，小于0.3mm；导叶下轴套有微裂纹"
+                        },
+                        {
+                            "name": "导叶下轴套密封",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.2.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶下轴套密封良好，导叶下轴套无漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶下轴套密封中等磨损，导叶下轴套漏水"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶下轴套密封严重磨损或损坏，导叶下轴套漏水严重"
+                                }
+                            ],
+                            "condition": "导叶下轴套密封良好，导叶下轴套无漏水"
+                        },
+                        {
+                            "name": "导叶下轴套排水管",
+                            "weight": 5,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.2.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "管路未堵塞"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "管路堵塞"
+                                }
+                            ],
+                            "condition": "管路未堵塞"
+                        },
+                        {
+                            "name": "底环/座环密封（如适用）",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.2.9",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "座环和底环把合面轻微锈蚀，底环侧密封接触面无锈蚀，无漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "座环和底环把合面中等锈蚀，底环侧密封接触面锈蚀,无漏水"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "座环和底环把合面锈蚀严重，底环侧密封接触面锈蚀严重，有漏水"
+                                }
+                            ],
+                            "condition": "座环和底环把合面轻微锈蚀，底环侧密封接触面无锈蚀，无漏水"
+                        },
+                        {
+                            "name": "底环连接螺栓",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.2.10",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓划线位置无偏移，螺栓伸长量满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无损探伤无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "螺栓划线位置出现偏移，螺栓伸长量不满足设计要求；螺栓锈蚀面积20%以上；螺栓关键部位有锈蚀；无损探伤有裂纹"
+                                }
+                            ],
+                            "condition": "螺栓划线位置无偏移，螺栓伸长量满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无损探伤无裂纹"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.2.11",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤焊缝有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤焊缝无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.2.12",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度复核计算满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度复核计算不满足要求"
+                                }
+                            ],
+                            "condition": "刚强度复核计算满足要求"
+                        }
+                    ]
+                },
+                {
+                    "name": "活动导叶",
+                    "score": 32,
+                    "items": [
+                        {
+                            "name": "空蚀",
+                            "weight": 8,
+                            "weighted_score": 32,
+                            "score": 4,
+                            "num": "3.3.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶无空蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶中度空蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶空蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "导叶中度空蚀，深度小于1mm"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.3.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶腐蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "导叶无腐蚀发生"
+                        },
+                        {
+                            "name": "磨蚀",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.3.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度磨蚀，磨蚀深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面磨蚀严重，磨蚀深度超过3mm"
+                                }
+                            ],
+                            "condition": "无磨蚀发生"
+                        },
+                        {
+                            "name": "导叶端面间隙",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.3.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶端面间隙满足设计值要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶端面间隙不满足设计值要求；球阀平压时间增加；停机时间增加"
+                                }
+                            ],
+                            "condition": "导叶端面间隙满足设计值要求"
+                        },
+                        {
+                            "name": "导叶立面间隙",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.3.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶立面间隙满足设计值要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶立面间隙不满足设计值要求；球阀平压时间增加；停机时间增加"
+                                }
+                            ],
+                            "condition": "导叶立面间隙满足设计值要求"
+                        },
+                        {
+                            "name": "导叶抗重螺栓",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.3.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓划线位置无偏移，预紧力矩满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "螺栓划线位置出现偏移，预紧力矩不满足设计要求；螺栓锈蚀面积大于20%；螺栓关键部位有锈蚀"
+                                }
+                            ],
+                            "condition": "螺栓划线位置无偏移，预紧力矩满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.3.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤有裂纹（主要部位）"
+                                }
+                            ],
+                            "condition": "无损探伤无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.3.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度复核计算满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度复核计算不满足要求"
+                                }
+                            ],
+                            "condition": "刚强度复核计算满足要求"
+                        }
+                    ]
+                },
+                {
+                    "name": "导叶套筒、拐臂、连杆",
+                    "score": 15,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油漆或涂层脱落面积在20%至50%之间，有锈蚀面积在20%至50%之间"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油漆或涂层脱落面积超过50%；锈蚀面积超过50%，老化严重"
+                                }
+                            ],
+                            "condition": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 4,
+                            "weighted_score": 8,
+                            "score": 2,
+                            "num": "3.4.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶套筒无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶套筒中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶套筒腐蚀严重，深度超过3mm；漏水严重"
+                                }
+                            ],
+                            "condition": "导叶套筒无腐蚀发生"
+                        },
+                        {
+                            "name": "导叶上轴套",
+                            "weight": 3,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶上轴套轻微磨损，深度小于0.1mm；导叶上轴套无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶上轴套中等磨损，深度大于0.1mm，小于0.3mm；导叶上轴套有微裂纹"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶上轴套严重磨损，深度大于0.3mm；导叶上轴套有裂纹"
+                                }
+                            ],
+                            "condition": "导叶上轴套轻微磨损，深度小于0.1mm；导叶上轴套无裂纹"
+                        },
+                        {
+                            "name": "导叶中轴套",
+                            "weight": 5,
+                            "weighted_score": 5,
+                            "score": 1,
+                            "num": "3.4.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶中轴套轻微磨损，深度小于0.1mm；导叶中轴套无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶中轴套中等磨损，深度大于0.1mm，小于0.3mm；导叶中轴套有微裂纹"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶中轴套严重磨损，深度大于0.3mm；导叶中轴套有裂纹"
+                                }
+                            ],
+                            "condition": "导叶中轴套轻微磨损，深度小于0.1mm；导叶中轴套无裂纹"
+                        },
+                        {
+                            "name": "导叶中轴套密封",
+                            "weight": 7,
+                            "weighted_score": 14,
+                            "score": 2,
+                            "num": "3.4.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶中轴套密封良好，导叶中轴颈无漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶中轴套密封中等磨损，导叶中轴颈轻微漏水"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶中轴套密封严重磨损或损坏，导叶中轴颈漏水严重"
+                                }
+                            ],
+                            "condition": "导叶中轴套密封良好，导叶中轴颈无漏水"
+                        },
+                        {
+                            "name": "导叶中轴套固定螺栓",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "导叶止推轴承",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶止推轴承轻微磨损，深度小于0.05mm"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶止推轴承中等磨损，深度小于0.1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶止推轴承严重磨损，深度大于0.1mm；或大于导叶下端面间隙的50%；"
+                                }
+                            ],
+                            "condition": "导叶止推轴承轻微磨损，深度小于0.05mm"
+                        },
+                        {
+                            "name": "导叶分半键",
+                            "weight": 5,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶分半键紧固无松动"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶分半键松动"
+                                }
+                            ],
+                            "condition": "导叶分半键紧固无松动"
+                        },
+                        {
+                            "name": "摩擦环",
+                            "weight": 5,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.9",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "摩擦环无磨损或轻微磨损，摩擦环与导叶臂或剪力臂的间隙满足设计要求值；无裂纹无损探伤"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "摩擦环严重磨损，摩擦环与导叶臂或剪力臂的间隙超过设计要求值；或有裂纹无损探伤"
+                                }
+                            ],
+                            "condition": "摩擦环无磨损或轻微磨损，摩擦环与导叶臂或剪力臂的间隙满足设计要求值；无裂纹无损探伤"
+                        },
+                        {
+                            "name": "摩擦环预紧螺栓",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.10",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓划线位置无偏移，预紧力矩满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "螺栓划线位置出现偏移，预紧力矩不满足设计要求；螺栓锈蚀面积大于20%；螺栓关键部位有锈蚀"
+                                }
+                            ],
+                            "condition": "螺栓划线位置无偏移，预紧力矩满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀"
+                        },
+                        {
+                            "name": "导叶剪断销",
+                            "weight": 5,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.4.11",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶剪断销锁定板固定螺栓无松动；无损探伤无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶剪断销锁定板固定螺栓松动；无损探伤有裂纹"
+                                }
+                            ],
+                            "condition": "导叶剪断销锁定板固定螺栓无松动；无损探伤无裂纹"
+                        },
+                        {
+                            "name": "导叶连杆轴承",
+                            "weight": 5,
+                            "weighted_score": 15,
+                            "score": 3,
+                            "num": "3.4.12",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶连杆轴承轻微磨损，深度小于0.1mm；轴承无明显晃动，无发卡"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶连杆轴承中等磨损，深度大于0.1mm，小于0.3mm；轴承无明显晃动，无发卡"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶连杆轴承严重磨损，深度大于0.3mm；轴承晃动明显或发卡"
+                                }
+                            ],
+                            "condition": "导叶连杆轴承轻微磨损，深度小于0.1mm；轴承无明显晃动，无发卡"
+                        },
+                        {
+                            "name": "导叶连杆销、偏心销",
+                            "weight": 5,
+                            "weighted_score": 15,
+                            "score": 3,
+                            "num": "3.4.13",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶连杆销无严重磨损，无轴向窜动；导叶偏心销压板固定螺栓无松动；无锈蚀"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "导叶连杆销轻微磨损，无轴向窜动；导叶偏心销压板固定螺栓无松动；有锈蚀"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶连杆销磨损严重，有轴向窜动；导叶偏心销压板固定螺栓松动；有锈蚀"
+                                }
+                            ],
+                            "condition": "导叶连杆销无严重磨损，无轴向窜动；导叶偏心销压板固定螺栓无松动；无锈蚀"
+                        }
+                    ]
+                },
+                {
+                    "name": "控制环",
+                    "score": 15,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.5.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油漆或涂层脱落面积在20%至50%之间，有锈蚀面积在20%至50%之间"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油漆或涂层脱落面积超过50%；锈蚀面积超过50%，老化严重"
+                                }
+                            ],
+                            "condition": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 2,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.5.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "腐蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "无腐蚀发生"
+                        },
+                        {
+                            "name": "控制环径向轴承",
+                            "weight": 5,
+                            "weighted_score": 15,
+                            "score": 3,
+                            "num": "3.5.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "控制环径向轴承严重磨损；磨损深度大于0.5mm"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "控制环径向轴承中度磨损；磨损深度大于0.3mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "控制环径向轴承严重磨损；磨损深度大于0.5mm"
+                                }
+                            ],
+                            "condition": "控制环径向轴承严重磨损；磨损深度大于0.5mm"
+                        },
+                        {
+                            "name": "控制环轴向轴承",
+                            "weight": 5,
+                            "weighted_score": 15,
+                            "score": 3,
+                            "num": "3.5.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "控制环轴向轴承轻微磨损；磨损深度小于0.3mm"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "控制环轴向轴承中度磨损；磨损深度大于0.3mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "控制环轴向轴承严重磨损；磨损深度大于0.5mm"
+                                }
+                            ],
+                            "condition": "控制环轴向轴承轻微磨损；磨损深度小于0.3mm"
+                        },
+                        {
+                            "name": "控制环压板固定螺栓",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.5.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "控制环压板无异常变形；螺栓紧固无松动，预紧力矩满足设计要求；螺栓无锈蚀"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "螺栓松动，预紧力矩不满足设计要求；螺栓锈有锈蚀"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "螺栓断裂"
+                                }
+                            ],
+                            "condition": "控制环压板无异常变形；螺栓紧固无松动，预紧力矩满足设计要求；螺栓无锈蚀"
+                        },
+                        {
+                            "name": "控制环分瓣面把合螺栓（如适用）",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.5.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.5.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤焊缝有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤焊缝无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.5.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度计算报告满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度计算报告不满足要求"
+                                }
+                            ],
+                            "condition": "刚强度计算报告满足要求"
+                        }
+                    ]
+                },
+                {
+                    "name": "导叶接力器",
+                    "score": 12,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.6.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油漆或涂层脱落面积在20%至50%之间，有锈蚀面积在20%至50%之间"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油漆或涂层脱落面积超过50%；锈蚀面积超过50%，老化严重"
+                                }
+                            ],
+                            "condition": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                        },
+                        {
+                            "name": "活塞杆、活塞缸",
+                            "weight": 9,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.6.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "活塞杆外表面无拉伤，无漏油；活塞缸无拉伤，无窜油"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "活塞杆外表面轻微拉伤，轻微漏油；活塞缸轻微拉伤，轻微窜油"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "活塞杆外表面拉伤，严重漏油；活塞缸严重拉伤，窜油严重"
+                                }
+                            ],
+                            "condition": "活塞杆外表面无拉伤，无漏油；活塞缸无拉伤，无窜油"
+                        },
+                        {
+                            "name": "导叶接力器漏油",
+                            "weight": 9,
+                            "weighted_score": 9,
+                            "score": 1,
+                            "num": "3.6.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无漏油"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "轻微漏油"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "密封严重漏油"
+                                }
+                            ],
+                            "condition": "无漏油"
+                        },
+                        {
+                            "name": "导叶接力器锁定",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.6.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶接力器锁定投退正常；液压锁定无损坏，无漏油"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶接力器锁定投退不正常；液压锁定损坏，漏油"
+                                }
+                            ],
+                            "condition": "导叶接力器锁定投退正常；液压锁定无损坏，无漏油"
+                        },
+                        {
+                            "name": "导叶接力器连杆轴承",
+                            "weight": 6,
+                            "weighted_score": 12,
+                            "score": 2,
+                            "num": "3.6.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶接力器连杆轴承轻微磨损，轴承无明显晃动，无发卡"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶接力器连杆轴承磨损严重，轴承晃动明显或发卡"
+                                }
+                            ],
+                            "condition": "导叶接力器连杆轴承轻微磨损，轴承无明显晃动，无发卡"
+                        },
+                        {
+                            "name": "接力器端盖固定螺栓",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.6.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "接力器压紧行程",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "3.6.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "满足设计要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "满足设计要求，漏水量增大但不影响机组制动时间"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "不满足设计要求，漏水量增大且影响机组制动导致制动时间变长"
+                                }
+                            ],
+                            "condition": "满足设计要求"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 9,
+                            "weighted_score": 9,
+                            "score": 1,
+                            "num": "3.6.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "导叶接力器活塞缸、缸盖、活塞杆无损探伤无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "导叶接力器活塞缸、缸盖、活塞杆无损探伤有裂纹"
+                                }
+                            ],
+                            "condition": "导叶接力器活塞缸、缸盖、活塞杆无损探伤无裂纹"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "转轮",
+            "score": 72,
+            "handle_suggestion": "空蚀磨损补焊后打磨光滑；裂纹按厂家专业工艺进行修复",
+            "sub_component_list": [
+                {
+                    "name": "转轮",
+                    "score": 72,
+                    "items": [
+                        {
+                            "name": "空蚀",
+                            "weight": 9,
+                            "weighted_score": 72,
+                            "score": 8,
+                            "num": "4.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无空蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "中度空蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "空蚀严重，深度超过3mm，面积不超过25cm2"
+                                }
+                            ],
+                            "condition": "空蚀严重，深度超过3mm，面积不超过25cm2"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "4.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面腐蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "无腐蚀发生"
+                        },
+                        {
+                            "name": "磨蚀",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "4.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度磨蚀，磨蚀深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面磨蚀严重，磨蚀深度超过3mm"
+                                }
+                            ],
+                            "condition": "无磨蚀发生"
+                        },
+                        {
+                            "name": "止漏环间隙",
+                            "weight": 9,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "4.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "止漏环表面轻微腐蚀、空蚀、磨损；止漏环间隙小于1.5倍设计间隙值"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "止漏环表面局部腐蚀、空蚀、磨损；止漏环间隙大于1.5小于2倍设计间隙值"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "止漏环表面严重腐蚀、空蚀、磨损；止漏环间隙大于2倍设计间隙值（根据机组实际情况"
+                                }
+                            ],
+                            "condition": "止漏环表面轻微腐蚀、空蚀、磨损；止漏环间隙小于1.5倍设计间隙值"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 10,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "4.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "叶片进出水边及焊缝无损探伤无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "叶片进出水边及焊缝无损探伤有裂纹"
+                                }
+                            ],
+                            "condition": "叶片进出水边及焊缝无损探伤无裂纹"
+                        },
+                        {
+                            "name": "泄水锥把合螺栓（如适用）",
+                            "weight": 8,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "4.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "结构完整性",
+                            "weight": 6,
+                            "weighted_score": 6,
+                            "score": 1,
+                            "num": "4.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "刚强度计算报告满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "刚强度计算报告不满足要求"
+                                }
+                            ],
+                            "condition": "刚强度计算报告满足要求"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "主轴及连接螺栓",
+            "score": 10,
+            "handle_suggestion": "",
+            "sub_component_list": [
+                {
+                    "name": "主轴本体",
+                    "score": 10,
+                    "items": [
+                        {
+                            "name": "磨损",
+                            "weight": 2,
+                            "weighted_score": 6,
+                            "score": 3,
+                            "num": "5.1.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "轴承密封处、轴面无磨损"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "轴承密封处、轴面磨损深度0.5mm以上"
+                                }
+                            ],
+                            "condition": "轴承密封处、轴面无磨损"
+                        },
+                        {
+                            "name": "锈蚀",
+                            "weight": 4,
+                            "weighted_score": 8,
+                            "score": 2,
+                            "num": "5.1.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无锈蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "中度锈蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "锈蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "无锈蚀发生"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "5.1.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤无裂纹"
+                        }
+                    ]
+                },
+                {
+                    "name": "主轴连接",
+                    "score": 10,
+                    "items": [
+                        {
+                            "name": "主轴连接螺栓",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "5.2.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 7,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓划线位置无偏移，螺栓伸长量满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无损探伤无裂纹"
+                                },
+                                {
+                                    "score": "4至7分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "8至10分",
+                                    "description": "螺栓划线位置出现偏移，且螺栓伸长量不满足设计要求；螺栓锈蚀面积20%以上；螺栓关键部位有锈蚀；无损探伤有裂纹"
+                                }
+                            ],
+                            "condition": "螺栓划线位置无偏移，螺栓伸长量满足设计要求；螺栓锈蚀面积不足20%；螺栓关键部位无锈蚀；无损探伤无裂纹"
+                        },
+                        {
+                            "name": "销套或销钉",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "5.2.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 7,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨损；配合间隙满足设计要求"
+                                },
+                                {
+                                    "score": "4至7分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "8至10分",
+                                    "description": "磨损严重；配合间隙不满足设计要求"
+                                }
+                            ],
+                            "condition": "无磨损；配合间隙满足设计要求"
+                        },
+                        {
+                            "name": "堵板",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "5.2.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "堵板固定螺栓无松动；无断裂，密封可靠；焊缝无裂纹（如适用）"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "堵板固定螺栓松动；固定螺栓断裂；密封漏水；焊缝有裂纹（如适用）"
+                                }
+                            ],
+                            "condition": "堵板固定螺栓无松动；无断裂，密封可靠；焊缝无裂纹（如适用）"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "水导轴承",
+            "score": 16,
+            "handle_suggestion": "",
+            "sub_component_list": [
+                {
+                    "name": "水导轴承",
+                    "score": 16,
+                    "items": [
+                        {
+                            "name": "涂层（外部）",
+                            "weight": 2,
+                            "weighted_score": 2,
+                            "score": 1,
+                            "num": "6.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油漆或涂层脱落面积在20%至50%之间，有锈蚀面积在20%至50%之间"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油漆或涂层脱落面积超过50%；锈蚀面积超过50%，老化严重"
+                                }
+                            ],
+                            "condition": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                        },
+                        {
+                            "name": "轴瓦",
+                            "weight": 8,
+                            "weighted_score": 8,
+                            "score": 1,
+                            "num": "6.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "UT 探伤合格，巴氏合金与基体非结合面小于5%，且单个面积小于1%，非结合面不在瓦的边缘；瓦面轻微划痕或磨损，清洗、抛光后瓦面恢复光滑"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "UT 探伤合格，巴氏合金与基体非结合面小于5%，且单个面积小于1%，非结合面不在瓦的边缘；瓦面少量划痕或磨损"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "UT 探伤不合格，巴氏合金与基体有5%以上非结合面，或单个面积大于1%，或瓦的周边有非结合面；瓦面表面刮伤、磨损严重；"
+                                }
+                            ],
+                            "condition": "UT 探伤合格，巴氏合金与基体非结合面小于5%，且单个面积小于1%，非结合面不在瓦的边缘；瓦面轻微划痕或磨损，清洗、抛光后瓦面恢复光滑"
+                        },
+                        {
+                            "name": "轴承座和油槽",
+                            "weight": 8,
+                            "weighted_score": 16,
+                            "score": 2,
+                            "num": "6.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "轴承座或油槽无渗漏，无损探伤探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "轴承座或油槽轻微渗漏，无损探伤探伤焊缝无裂纹"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "轴承座或油槽渗漏严重，无损探伤探伤焊缝有裂纹"
+                                }
+                            ],
+                            "condition": "轴承座或油槽无渗漏，无损探伤探伤焊缝无裂纹"
+                        },
+                        {
+                            "name": "轴瓦支撑",
+                            "weight": 8,
+                            "weighted_score": 16,
+                            "score": 2,
+                            "num": "6.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "抗重螺栓、推力块、楔键无磨损；固定螺栓无松动"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "抗重螺栓、推力块、楔键磨损严重；固定螺栓松动"
+                                }
+                            ],
+                            "condition": "抗重螺栓、推力块、楔键无磨损；固定螺栓无松动"
+                        },
+                        {
+                            "name": "供排油系统及管路",
+                            "weight": 6,
+                            "weighted_score": 12,
+                            "score": 2,
+                            "num": "6.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油泵站及其管路无渗油，管路无锈蚀"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油泵站及其管路有少量漏油，管路少量锈蚀"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油泵站及其管路漏油严重，管路锈蚀严重"
+                                }
+                            ],
+                            "condition": "油泵站及其管路无渗油，管路无锈蚀"
+                        },
+                        {
+                            "name": "轴承冷却供排水系统",
+                            "weight": 5,
+                            "weighted_score": 5,
+                            "score": 1,
+                            "num": "6.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "管路无渗水，管路无锈蚀，冷却器无漏水或漏油"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "管路有少量漏水，管路少量锈蚀，冷却器无漏水或漏油"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "管路漏水严重，管路锈蚀严重，冷却器漏水或漏油"
+                                }
+                            ],
+                            "condition": "管路无渗水，管路无锈蚀，冷却器无漏水或漏油"
+                        },
+                        {
+                            "name": "油品分析",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "6.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油质化验合格，满足GB11120标准要求；油中无金属颗粒杂质"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油质化验不合格或油中含有金属颗粒杂质"
+                                }
+                            ],
+                            "condition": "油质化验合格，满足GB11120标准要求；油中无金属颗粒杂质"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "主轴密封",
+            "score": 48,
+            "handle_suggestion": "修复支撑环或密封环；更换检修密封",
+            "sub_component_list": [
+                {
+                    "name": "主轴密封",
+                    "score": 48,
+                    "items": [
+                        {
+                            "name": "滑环（抗磨环）",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "7.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "主轴密封滑环面表面光滑，无明显划痕凹坑痕迹；密封面无错牙；跳动值满足设计要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "主轴密封滑环面磨损,局部凹坑深度大于0.1mm，小于0.15mm；密封面无错牙；跳动值满足设计要求"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "主轴密封滑环面磨损，局部拉伤凹坑深度大于0.15mm；密封面有错牙；跳动值不满足设计要求"
+                                }
+                            ],
+                            "condition": "主轴密封滑环面表面光滑，无明显划痕凹坑痕迹；密封面无错牙；跳动值满足设计要求"
+                        },
+                        {
+                            "name": "嵌入密封环",
+                            "weight": 9,
+                            "weighted_score": 27,
+                            "score": 3,
+                            "num": "7.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "嵌入密封滑环磨损厚度小于50%磨损允许值"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "嵌入密封环磨损厚度大于50%小于等于80%磨损允许值"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "嵌入密封环磨损厚度大于80%磨损允许值"
+                                }
+                            ],
+                            "condition": "嵌入密封滑环磨损厚度小于50%磨损允许值"
+                        },
+                        {
+                            "name": "支持环、密封环",
+                            "weight": 5,
+                            "weighted_score": 15,
+                            "score": 3,
+                            "num": "7.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "支撑环或密封环轻微磨损，密封间隙满足设计要求，有轻微漏水"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "支撑环或密封环中度磨损，密封间隙大于1.2倍设计间隙，有轻微漏水"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "支持环或密封环严重磨损，密封间隙大于1.5倍设计间隙，漏水严重"
+                                }
+                            ],
+                            "condition": "支撑环或密封环轻微磨损，密封间隙满足设计要求，有轻微漏水"
+                        },
+                        {
+                            "name": "连接螺栓",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "7.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有裂纹"
+                                }
+                            ],
+                            "condition": "预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无裂纹"
+                        },
+                        {
+                            "name": "空气围带（如适用）",
+                            "weight": 6,
+                            "weighted_score": 48,
+                            "score": 8,
+                            "num": "7.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨损，无漏气"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "轻微磨损，无漏气"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "老化；磨损严重，有漏气"
+                                }
+                            ],
+                            "condition": "老化；磨损严重，有漏气"
+                        },
+                        {
+                            "name": "弹簧（如适用）",
+                            "weight": 7,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "7.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "PT探伤无裂纹；载荷应变试验满足要求"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "PT探伤有裂纹；载荷应变试验不满足要求"
+                                }
+                            ],
+                            "condition": "PT探伤无裂纹；载荷应变试验满足要求"
+                        },
+                        {
+                            "name": "防转块",
+                            "weight": 5,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "7.7",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无锈蚀；无卡涩"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "PT探伤有裂纹；载荷应变试验不满足要求"
+                                }
+                            ],
+                            "condition": "无锈蚀；无卡涩"
+                        },
+                        {
+                            "name": "供水供气系统",
+                            "weight": 6,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "7.8",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "管路无锈蚀；供水系统过滤器工作正常；供水管路无渗水；供气管路无漏气；各测量元件工作正常"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "管路少量锈蚀；供水系统过滤器工作正常；滤网未损坏；供水管路有少量漏水；供气管路少量漏气；各测量元件工作正常"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "管路锈蚀严重；供水系统过滤器堵塞；滤网损坏；供水管路漏水严重；供气管路漏气；各测量元件工作正常"
+                                }
+                            ],
+                            "condition": "管路无锈蚀；供水系统过滤器工作正常；供水管路无渗水；供气管路无漏气；各测量元件工作正常"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "伸缩节",
+            "score": 10,
+            "handle_suggestion": "",
+            "sub_component_list": [
+                {
+                    "name": "伸缩节",
+                    "score": 10,
+                    "items": [
+                        {
+                            "name": "涂层",
+                            "weight": 2,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "8.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "油漆或涂层脱落面积在20%至50%之间，有锈蚀面积在20%至50%之间；"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "油漆或涂层脱落面积超过50%；锈蚀面积超过50%，老化严重；"
+                                }
+                            ],
+                            "condition": "油漆脱落面积小于20%，锈蚀面积小于20%"
+                        },
+                        {
+                            "name": "腐蚀",
+                            "weight": 3,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "8.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无腐蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度腐蚀，深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面腐蚀严重，深度超过3mm"
+                                }
+                            ],
+                            "condition": "无腐蚀发生"
+                        },
+                        {
+                            "name": "磨蚀",
+                            "weight": 3,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "8.3",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无磨蚀发生"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "流道面中度磨蚀，磨蚀深度小于1mm"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "流道面磨蚀严重，磨蚀深度超过3mm"
+                                }
+                            ],
+                            "condition": "无磨蚀发生"
+                        },
+                        {
+                            "name": "伸缩节密封",
+                            "weight": 10,
+                            "weighted_score": 10,
+                            "score": 1,
+                            "num": "8.4",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无漏水，密封件完好无老化现象，密封面无腐蚀"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "滴漏，密封件完好有轻微老化现象，密封面有轻微腐蚀"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "漏水严重，密封件老化或破损，密封面腐蚀严重"
+                                }
+                            ],
+                            "condition": "无漏水，密封件完好无老化现象，密封面无腐蚀"
+                        },
+                        {
+                            "name": "连接螺栓",
+                            "weight": 9,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "8.5",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无损伤，无裂纹（与阀体连接的螺栓无损探伤）"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "螺栓伸长量或预紧力矩不满足设计要求；螺栓松动；螺栓有锈蚀；有损伤，有裂纹（与阀体连接的螺栓无损探伤探伤）"
+                                }
+                            ],
+                            "condition": "螺栓伸长量或预紧力矩满足设计要求；螺栓紧固无松动；螺栓无锈蚀；无损伤，无裂纹（与阀体连接的螺栓无损探伤）"
+                        },
+                        {
+                            "name": "裂纹",
+                            "weight": 10,
+                            "weighted_score": 0,
+                            "score": 0,
+                            "num": "8.6",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "无损探伤焊缝无裂纹；PT探伤堆焊层无裂纹"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "/"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "无损探伤焊缝有裂纹；或PT探伤堆焊层有裂纹"
+                                }
+                            ],
+                            "condition": "无损探伤焊缝无裂纹；PT探伤堆焊层无裂纹"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        },
+        {
+            "name": "自动化元件",
+            "score": 5,
+            "handle_suggestion": "",
+            "sub_component_list": [
+                {
+                    "name": "自动化元件",
+                    "score": 5,
+                    "items": [
+                        {
+                            "name": "功能性检查",
+                            "weight": 5,
+                            "weighted_score": 5,
+                            "score": 1,
+                            "num": "9.1",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "自动化元器件信号正常，监测数据正常"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "自动化元器件信号正常，监测数据不正常"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "自动化元器件信号不稳定或无信号"
+                                }
+                            ],
+                            "condition": "自动化元器件信号正常，监测数据正常"
+                        },
+                        {
+                            "name": "电缆布置",
+                            "weight": 4,
+                            "weighted_score": 4,
+                            "score": 1,
+                            "num": "9.2",
+                            "score_lower_than": 4,
+                            "score_higher_than": 6,
+                            "rating_description": [
+                                {
+                                    "score": "1至3分",
+                                    "description": "电缆固定牢固，无引线脱落，安装有序，布线槽轻微损坏"
+                                },
+                                {
+                                    "score": "4至6分",
+                                    "description": "电缆固定牢固，无引线脱落，但安装杂乱，布线槽存在损坏情况"
+                                },
+                                {
+                                    "score": "7至10分",
+                                    "description": "电缆无固定，引线脱落，接头松动"
+                                }
+                            ],
+                            "condition": "电缆固定牢固，无引线脱落，安装有序，布线槽轻微损坏"
+                        }
+                    ]
+                }
+            ],
+            "image_list": [],
+            "createdAt": "2021-02-07T03:14:59.000Z",
+            "updatedAt": "2021-02-07T03:14:59.000Z"
+        }
+    ],
+    "createdAt": "2021-02-07T03:14:59.000Z",
+    "updatedAt": "2021-02-07T03:14:59.000Z"
+}]

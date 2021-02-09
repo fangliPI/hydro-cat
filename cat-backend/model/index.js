@@ -41,6 +41,8 @@ const SubComponentSchema = Schema({
 const ImageListSchema = Schema({
 	name: String,
 	url: String
+}, {
+	_id: false
 });
 
 const ComponentSchema = Schema({
@@ -73,7 +75,7 @@ const EvalBasicSchema = Schema({
 	type: String, //"型式": "/",
 	date_on: String,
 	date_inspection: String,
-	eval_score: Number ,//"评价分数": "/",
+	eval_score: Number, //"评价分数": "/",
 	rated_by: String,
 	verified_by: String
 }, {
