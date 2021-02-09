@@ -1,0 +1,17 @@
+version: '3'
+
+services: 
+
+db:
+  image:mongo
+  restart: always
+
+api:
+  build:cat-backend
+  restart: always
+
+nginx:
+  build:cat-frontend
+  restart: always
+  ports: 
+   - 8080:80

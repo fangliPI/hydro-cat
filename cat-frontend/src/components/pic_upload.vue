@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<el-upload action="http://localhost:3000/api/v1/upload" name="upload" ref="upload" :on-remove="handleRemove"
+		<el-upload action="/api/v1/upload" name="upload" ref="upload" :on-remove="handleRemove"
 		 :on-success="handleSuccess">
 			<el-button slot="trigger" size="small">选取文件</el-button>
 		</el-upload>

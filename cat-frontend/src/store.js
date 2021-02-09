@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
-const API_BASE = 'http://localhost:3000/api/v1'
+const API_BASE = '/api/v1'
 
 Vue.use(Vuex)
 
