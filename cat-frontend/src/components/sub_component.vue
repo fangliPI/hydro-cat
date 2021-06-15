@@ -79,15 +79,15 @@
 			},
 			compute_item_weighted_score(item) {
 				item.row.weighted_score = item.row.score * item.row.weight;
-				/* if(item.row.item_score < item.row.item_score_lower_than) {
-					item.row.item_condition = item.row.rating_description[0].description;
+				if(item.row.score < item.row.score_lower_than) {
+					item.row.condition = item.row.rating_description[0].description;
 				}
-				else if (item.row.item_score <= item.row.item_score_higher_than) {
-					item.row.item_condition = item.row.rating_description[1].description;
+				else if (item.row.score <= item.row.score_higher_than) {
+					item.row.condition = item.row.rating_description[1].description;
 				}
 				else {
-					item.row.item_condition = item.row.rating_description[2].description;
-				} */
+					item.row.condition = item.row.rating_description[2].description;
+				}
 				if(item.row.condition == "/") {
 					this.$alert('该分数不可取，请重新选择', '警告', {
 						confirmButtonText: 'OK',

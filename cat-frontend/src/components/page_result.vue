@@ -76,8 +76,8 @@
 		<template v-for="comp in eval_data_details">
 			<table class="my-table" :key="comp._id" v-if="comp.createdAt == time_now">
 				<tr>
-					<td rowspan="3" style="width: 120px;">{{comp.name}}</td>
-					<td style="width: 120px;">扣分状态量及状态描述</td>
+					<td rowspan="3" style="width: 77px;text-align: center;">{{comp.name}}</td>
+					<td style="width: 140px; text-align: center;">扣分状态量及状态描述</td>
 					<td>
 						<ul v-if="comp.score <= 30">
 							状态正常
@@ -99,14 +99,14 @@
 					</td>
 				</tr>
 				<tr>
-					<td>处理建议</td>
+					<td style="text-align: center;">处理建议</td>
 					<td>
-						<el-input type="textarea" :rows="1" placeholder="Please input" v-model="comp.handle_suggestion">
+						<el-input type="textarea" :rows="1" placeholder="请输入" v-model="comp.handle_suggestion">
 						</el-input>
 					</td>
 				</tr>
 				<tr>
-					<td>图片说明</td>
+					<td style="text-align: center;">图片说明</td>
 					<td>
 						<pic_upload v-on:update-images="updateImageList(comp.image_list, $event)"></pic_upload>
 					</td>
@@ -115,11 +115,11 @@
 		</template>
 		<table class="my-table">
 			<tr>
-				<td style="width: 240px;">评价人：</td>
+				<td style="width: 219px;">评价人：</td>
 				<td>
 					<el-input type="text" v-model="eval_data_basic.rated_by"></el-input>
 				</td>
-				<td style="width: 240px;">审核：</td>
+				<td style="width: 219px;">审核：</td>
 				<td>
 					<el-input type="text" v-model="eval_data_basic.verified_by"></el-input>
 				</td>
@@ -275,7 +275,7 @@
 		flex: 1;
 		width: 100%;
 		max-width: 100%;
-		font-size: 14px;
+		font-size: 12px;
 		color: #606266;
 		border: 1px solid #EBEEF5
 	}

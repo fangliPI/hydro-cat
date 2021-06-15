@@ -65,13 +65,13 @@
 							if (item.weighted_score > score_temp) {
 								score_temp = item.weighted_score;
 							}
-							if (item.score < item.score_lower_than) {
+							/* if (item.score < item.score_lower_than) {
 								item.condition = item.rating_description[0].description;
 							} else if (item.score <= item.score_higher_than) {
 								item.condition = item.rating_description[1].description;
 							} else {
 								item.condition = item.rating_description[2].description;
-							}
+							} */
 						})
 						item_sub_component.score = score_temp;
 						score_temp = 0;
