@@ -32,20 +32,20 @@ Open your browser and input the link **http://localhost:8080**, you will see the
 Now enjoy ;)
 
 ## Backend APIs
-Following APIs enable users to manipulate data in the condition assessment tool, giving more flexibility and functionality. The tool I am using and would like to recommend is [Postman](https://www.postman.com/)
+Following APIs enable users to manipulate data in the condition assessment tool, giving more flexibility and functionality. The tool I am using and would like to recommend is [Postman](https://www.postman.com/).
 
 ### Users
 ```
-GET http://localhost:3000/api/v1/users 				##Get all users registered in this system
-POST http://localhost:3000/api/v1/user_register		##Register a new user in this system, body should be like {"name":"UserName", "password":"MyPassword"}
-DELETE http://localhost:3000/api/v1/users/:id		##Delete a user by given the user's ID. Note: this should be sent with an authourization token.
-POST http://localhost:3000/api/v1/user_login		##Check a registered user's token by this API with given body, which should be like {"name":"UserName", "password":"MyPassword"}
+GET http://localhost:3000/api/v1/users          ##Get all users registered in this system
+POST http://localhost:3000/api/v1/user_register ##Register a new user in this system, body should be like {"name":"UserName", "password":"MyPassword"}
+DELETE http://localhost:3000/api/v1/users/:id   ##Delete a user by given the user's ID. Note: this should be sent with an authourization token
+POST http://localhost:3000/api/v1/user_login    ##Check a registered user's token by this API with given body, which should be like {"name":"UserName", "password":"MyPassword"}
 ```
 
 ### Evaluation data
 ```
-GET http://localhost:3000/api/v1/eval_data			##Get all evaluation data record stored in this system. After each condition assessment, one record is created with an unique ID and timestamp.
-GET http://localhost:3000/api/v1/eval_data_latest	##Get the latest evaluation data record (according to the timestamp, when the record is created).
-POST http://localhost:3000/api/v1/eval_data			##Create a new data record by using this API with specifc formatted body (the body's format should be same as in the file db/evals.json)
-DELETE http://localhost:3000/api/v1/eval_data/:id	##Delete one evaluation data record with specific record ID
+GET http://localhost:3000/api/v1/eval_data        ##Get all evaluation data record stored in this system. After each condition assessment, one record is created with an unique ID and timestamp
+GET http://localhost:3000/api/v1/eval_data_latest ##Get the latest evaluation data record (according to the timestamp, when the record is created)
+POST http://localhost:3000/api/v1/eval_data       ##Create a new data record by using this API with specifc formatted body (the body's format should be same as in the file db/evals.json)
+DELETE http://localhost:3000/api/v1/eval_data/:id ##Delete one evaluation data record with specific record ID
 ```
